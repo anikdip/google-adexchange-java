@@ -17,12 +17,11 @@ package com.google.api.services.samples.adexchangebuyer.cmdline.v2_x;
 import com.google.api.client.googleapis.services.json.AbstractGoogleJsonClient;
 import com.google.api.services.adexchangebuyer2.v2beta1.AdExchangeBuyerII;
 import com.google.api.services.adexchangebuyer2.v2beta1.model.AbsoluteDateRange;
-import com.google.api.services.adexchangebuyer2.v2beta1.model.Client;
 import com.google.api.services.adexchangebuyer2.v2beta1.model.Date;
 import com.google.api.services.adexchangebuyer2.v2beta1.model.FilterSet;
 import com.google.api.services.adexchangebuyer2.v2beta1.model.RealtimeTimeRange;
 import com.google.api.services.adexchangebuyer2.v2beta1.model.RelativeDateRange;
-import com.google.api.services.samples.adexchangebuyer.cmdline.BaseSample;
+
 import java.io.IOException;
 import java.util.List;
 

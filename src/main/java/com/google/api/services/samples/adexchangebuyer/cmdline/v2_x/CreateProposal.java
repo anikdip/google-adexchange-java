@@ -25,7 +25,7 @@ import com.google.api.services.adexchangebuyer2.v2beta1.model.Price;
 import com.google.api.services.adexchangebuyer2.v2beta1.model.PricePerBuyer;
 import com.google.api.services.adexchangebuyer2.v2beta1.model.Proposal;
 import com.google.api.services.adexchangebuyer2.v2beta1.model.Seller;
-import com.google.api.services.samples.adexchangebuyer.cmdline.BaseSample;
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;

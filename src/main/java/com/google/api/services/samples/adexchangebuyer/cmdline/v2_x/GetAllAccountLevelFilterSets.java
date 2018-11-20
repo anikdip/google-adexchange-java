@@ -21,7 +21,7 @@ import com.google.api.services.adexchangebuyer2.v2beta1.model.Date;
 import com.google.api.services.adexchangebuyer2.v2beta1.model.FilterSet;
 import com.google.api.services.adexchangebuyer2.v2beta1.model.RealtimeTimeRange;
 import com.google.api.services.adexchangebuyer2.v2beta1.model.RelativeDateRange;
-import com.google.api.services.samples.adexchangebuyer.cmdline.BaseSample;
+
 import java.io.IOException;
 import java.util.List;
 

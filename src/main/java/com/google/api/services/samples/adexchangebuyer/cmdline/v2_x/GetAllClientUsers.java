@@ -18,7 +18,6 @@ import com.google.api.client.googleapis.services.json.AbstractGoogleJsonClient;
 import com.google.api.services.adexchangebuyer2.v2beta1.AdExchangeBuyerII;
 import com.google.api.services.adexchangebuyer2.v2beta1.model.ClientUser;
 
-import com.google.api.services.samples.adexchangebuyer.cmdline.BaseSample;
 import java.io.IOException;
 import java.util.List;
 

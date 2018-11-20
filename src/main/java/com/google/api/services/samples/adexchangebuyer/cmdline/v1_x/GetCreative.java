@@ -20,8 +20,8 @@ import com.google.api.services.adexchangebuyer.AdExchangeBuyer;
 import com.google.api.services.adexchangebuyer.model.Creative;
 import com.google.api.services.adexchangebuyer.model.Creative.ServingRestrictions;
 import com.google.api.services.adexchangebuyer.model.Creative.ServingRestrictions.DisapprovalReasons;
-
 import com.google.api.services.samples.adexchangebuyer.cmdline.BaseSample;
+
 import java.io.IOException;
 
 /**
@@ -32,7 +32,7 @@ import java.io.IOException;
  */
 public class GetCreative extends BaseSample {
   @Override
-  public ClientType getClientType() {
+  public BaseSample.ClientType getClientType() {
     return BaseSample.ClientType.ADEXCHANGEBUYER;
   }
 

@@ -14,12 +14,9 @@
 
 package com.google.api.services.samples.adexchangebuyer.cmdline;
 
-import org.json.JSONObject;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.text.ParseException;
 
 /**
  * This class implements utility methods used across the Authorized Buyer Ad Exchange Buyer API
@@ -35,18 +32,5 @@ public class Utils {
   public static String readInputLine() throws IOException {
     BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
     return in.readLine();
-  }
-
-  public static JSONObject readInputJson() throws IOException, ParseException {
-    StringBuilder sb = new StringBuilder();
-
-    System.out.print("Give Sample Data As Json Format:");
-    String line;
-    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-    while ((line = br.readLine()) != null) {
-      sb.append(line);
-    }
-    JSONObject json = new JSONObject(String.valueOf(sb));
-    return json;
   }
 }

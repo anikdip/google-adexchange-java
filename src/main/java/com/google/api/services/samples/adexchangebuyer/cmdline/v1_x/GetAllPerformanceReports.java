@@ -17,8 +17,8 @@ package com.google.api.services.samples.adexchangebuyer.cmdline.v1_x;
 import com.google.api.client.googleapis.services.json.AbstractGoogleJsonClient;
 import com.google.api.services.adexchangebuyer.AdExchangeBuyer;
 import com.google.api.services.adexchangebuyer.model.PerformanceReport;
-
 import com.google.api.services.samples.adexchangebuyer.cmdline.BaseSample;
+
 import java.io.IOException;
 import java.util.List;
 

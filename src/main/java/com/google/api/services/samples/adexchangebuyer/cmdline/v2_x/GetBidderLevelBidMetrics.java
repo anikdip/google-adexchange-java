@@ -20,7 +20,7 @@ import com.google.api.services.adexchangebuyer2.v2beta1.model.BidMetricsRow;
 import com.google.api.services.adexchangebuyer2.v2beta1.model.ListBidMetricsResponse;
 import com.google.api.services.adexchangebuyer2.v2beta1.model.MetricValue;
 import com.google.api.services.adexchangebuyer2.v2beta1.model.TimeInterval;
-import com.google.api.services.samples.adexchangebuyer.cmdline.BaseSample;
+
 import java.io.IOException;
 import java.util.List;
 

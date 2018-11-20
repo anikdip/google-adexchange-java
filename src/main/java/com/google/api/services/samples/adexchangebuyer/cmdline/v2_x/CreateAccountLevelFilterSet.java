@@ -19,9 +19,8 @@ import com.google.api.services.adexchangebuyer2.v2beta1.AdExchangeBuyerII;
 import com.google.api.services.adexchangebuyer2.v2beta1.model.AbsoluteDateRange;
 import com.google.api.services.adexchangebuyer2.v2beta1.model.Date;
 import com.google.api.services.adexchangebuyer2.v2beta1.model.FilterSet;
-import com.google.api.services.samples.adexchangebuyer.cmdline.BaseSample;
+
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import org.joda.time.DateTime;

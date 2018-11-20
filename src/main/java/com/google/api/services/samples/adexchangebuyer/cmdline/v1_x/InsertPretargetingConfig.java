@@ -19,7 +19,6 @@ import com.google.api.services.adexchangebuyer.AdExchangeBuyer;
 import com.google.api.services.adexchangebuyer.model.PretargetingConfig;
 import com.google.api.services.adexchangebuyer.model.PretargetingConfig.Dimensions;
 
-import com.google.api.services.samples.adexchangebuyer.cmdline.BaseSample;
 import java.io.IOException;
 import java.util.Arrays;
 

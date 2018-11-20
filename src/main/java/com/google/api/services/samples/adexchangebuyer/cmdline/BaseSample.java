@@ -17,7 +17,6 @@ package com.google.api.services.samples.adexchangebuyer.cmdline;
 import com.google.api.client.googleapis.services.json.AbstractGoogleJsonClient;
 
 import java.io.IOException;
-import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
@@ -66,7 +65,7 @@ public abstract class BaseSample {
    * @param client The Ad Exchange Buyer API client class
    * @throws IOException In case an error has occurred
    */
-  public abstract void execute(AbstractGoogleJsonClient client) throws IOException, ParseException;
+  public abstract void execute(AbstractGoogleJsonClient client) throws IOException;
 
   /**
    * Prompts the user to enter a boolean value.
